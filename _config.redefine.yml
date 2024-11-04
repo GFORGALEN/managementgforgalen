@@ -176,7 +176,7 @@ home_banner:
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
-      weixin:  # your Wechat QRcode image URL
+      weixin: https://i.ibb.co/sw982MQ/21ff19196044ccd28421627485d4371.jpg # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -185,7 +185,7 @@ home_banner:
 # Docs: https://redefine-docs.ohevan.com/home/navbar
 navbar:
   # Auto hide navbar
-  auto_hide: true
+  auto_hide: false
   # Navbar background color
   color:
     left: "#f78736" #left side
@@ -200,19 +200,19 @@ navbar:
     Home:
       path: /
       icon: fa-regular fa-house # can be empty
-    # Archives:
-    #   path: /archives
-    #   icon: fa-regular fa-archive # can be empty
-    # Status:
-    #   path: https://status.ohevan.com/
-    #   icon: fa-regular fa-chart-bar
-    # About:
-    #   icon: fa-regular fa-user
-    #   submenus:
-    #     Me: /about
-    #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
-    #     Blog: https://ohevan.com
-    #     Friends: /friends
+    Archives:
+      path: /archives
+      icon: fa-regular fa-archive # can be empty
+#    Status:
+#      path: https://status.ohevan.com/
+#      icon: fa-regular fa-chart-bar
+    About:
+      icon: fa-regular fa-user
+      submenus:
+        Me: /about
+        Github: https://github.com/GFORGALEN
+#        Blog: https://ohevan.com
+#        Friends: /friends
     # Links:
     #   icon: fa-regular fa-link
     #   submenus:
@@ -223,7 +223,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -237,18 +237,18 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
-    announcement: # Announcement text
+    announcement: Welcome My Friend # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-    # Archives:
-    #   path: /archives
-    #   icon: fa-regular fa-archive # can be empty
-    # Tags:
-    #   path: /tags
-    #   icon: fa-regular fa-tags # can be empty
-    # Categories:
-    #   path: /categories
-    #   icon: fa-regular fa-folder # can be empty
+     Archives:
+       path: /archives
+       icon: fa-regular fa-archive # can be empty
+     Tags:
+       path: /tags
+       icon: fa-regular fa-tags # can be empty
+     Categories:
+       path: /categories
+       icon: fa-regular fa-folder # can be empty
     # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
@@ -384,11 +384,11 @@ comment:
 # Docs: https://redefine-docs.ohevan.com/footer
 footer:
   # Show website running time
-  runtime: true # show website running time or not
+  runtime: false # show website running time or not
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2024/11/1 11:45:14
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
