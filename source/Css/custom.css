@@ -1,0 +1,106 @@
+/*.floating-player {*/
+/*    position: fixed;*/
+/*    bottom: 20px;*/
+/*    right: 20px;*/
+/*    width: 300px;*/
+/*    background: #ffffff;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);*/
+/*    z-index: 1000;*/
+/*    cursor: move;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.floating-player.minimized {*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*}*/
+
+/*.player-header {*/
+/*    background: #4CAF50;*/
+/*    color: white;*/
+/*    padding: 10px;*/
+/*    border-radius: 10px 10px 0 0;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.minimize-btn {*/
+/*    background: none;*/
+/*    border: none;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.player-content {*/
+/*    padding: 15px;*/
+/*}*/
+
+/*.song-info {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.song-info img {*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    border-radius: 5px;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.song-details {*/
+/*    flex-grow: 1;*/
+/*}*/
+
+/*.song-name {*/
+/*    font-weight: bold;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.artist-name {*/
+/*    color: #666;*/
+/*    margin: 5px 0 0 0;*/
+/*    font-size: 0.9em;*/
+/*}*/
+
+/*.player-controls {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    gap: 15px;*/
+/*}*/
+
+/*.control-btn {*/
+/*    background: none;*/
+/*    border: none;*/
+/*    font-size: 1.5em;*/
+/*    cursor: pointer;*/
+/*    padding: 5px;*/
+/*}*/
+
+/*.control-btn:hover {*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*.minimized .player-content {*/
+/*    display: none;*/
+/*}*/
+/*!* 添加一个醒目的顶部通知栏 *!*/
+/*.announcement-bar {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);*/
+/*    color: white;*/
+/*    padding: 10px;*/
+/*    text-align: center;*/
+/*    z-index: 1000;*/
+/*    animation: slideDown 0.5s ease-out;*/
+/*}*/
+
+/*@keyframes slideDown {*/
+/*    from { transform: translateY(-100%); }*/
+/*    to { transform: translateY(0); }*/
+/*}*/
